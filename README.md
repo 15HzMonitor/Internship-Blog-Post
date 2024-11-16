@@ -1,10 +1,11 @@
 # Internship Blog Post
-This is my blog post of a documentation on how to set up the Dshield AWS, DShield SIEM locally, and connecting them both. <br>
-I initially was setting up a Raspberry Pi5 to use as a Dshield sensor, but switched to AWS after a while. <br>
-I then added a Dshield SIEM hosted locally to utilize it for my Attack Observations and connected the AWS sensor into it.
+This is my blog post of a documentation on how to set up the DShield AWS, DShield SIEM locally, and connecting them both. <br>
+I initially was setting up a Raspberry Pi5 to use as a DShield sensor, but switched to AWS after a while. <br>
+I then added a DShield SIEM hosted locally to utilize it for my Attack Observations and connected the AWS sensor into it.
+<br>
+<br>
 
-
-## Hardware, Software, and Accounts Requirements
+# Hardware, Software, and Accounts Requirements
 
 ### Hardware
 
@@ -18,13 +19,18 @@ I then added a Dshield SIEM hosted locally to utilize it for my Attack Observati
    - Add 2 partitions, one for the OS, the other for docker<br>
    - Minimum 300 GB partition assigned to /var/lib/docker (I used a 1TB SATA drive) <br>
 
-1. A USB flash drive to put your Ubuntu ISO to be installed to your repurposed machine.
+2. A USB flash drive to put your Ubuntu ISO to be installed to your repurposed machine. Have at least 
 
 
+<br>
+<br>
 
 ### Software
 
 1. Ubuntu 22.04 LTS Live Server 64-bit for your DShield SIEM. You can download the ISO on the [Ubuntu Server Page](https://ubuntu.com/download/server)
+
+<br>
+<br>
 
 ### Accounts
 
@@ -32,20 +38,24 @@ I then added a Dshield SIEM hosted locally to utilize it for my Attack Observati
 
 2. An AWS Account to deploy your DShield Sensor using the Free Tier offer. <br> If you don't have one yet, you can sign up on the [AWS sign up page](https://signin.aws.amazon.com/signup?request_type=register).
 
-3. An AlienVault OTX account for generating the API code to link to your Dshield SIEM. <br> You can sign up on the [AlienVault OTX sign up page](https://otx.alienvault.com/).
+3. An AlienVault OTX account for generating the API code to link to your DShield SIEM. <br> You can sign up on the [AlienVault OTX sign up page](https://otx.alienvault.com/).
 
+<br>
+<br>
 
-## Setup Process
+# Setup Process
 
-#### 1. Login to AWS, and [setup your DShield Sensor](./AWS%20DShield%20Sensor%20Setup.md).
+#### 1. Login to AWS, and [setup your DShield Sensor](./1.%20AWS%20DShield%20Sensor%20Setup.md). <!-- TO-DO -->
    
 #### 2. Setup your DShield SIEM. <br>
-  1. Install Ubuntu Server to a physical machine.
-  2. (Option) Install Ubuntu Server to a virtual machine.
-  3. Build a Docker Partition
-  4. Install Docker
-  5. Install and Configure DShield ELK
-  6. 
+  1. Install Ubuntu Server to a physical machine. <!-- TO-DO -->
+  2. (Option) Install Ubuntu Server to a virtual machine. <!-- TO-DO -->
+  3. Build a Docker Partition. <!-- TO-DO -->
+  4. Install Docker. <!-- TO-DO -->
+  5. Install and Configure DShield ELK. <!-- TO-DO -->
+
+
+An optional setup for using Raspberry Pi as a SIEM has been written by another SANS Student, and can be found on their [GitHub page](https://github.com/amelete11235/homelab/blob/main/Installing%20DShield%20SIEM%20on%20a%20Raspberry%20Pi%205%20-%208%20GB%20RAM/Installing%20DShield%20SIEM%20on%20a%20Raspberry%20Pi%205%20-%208%20GB%20RAM.md).
    
 #### 3. Configure FileBeat and connect your DShield Sensor to DShield SIEM.
 
@@ -57,3 +67,5 @@ I then added a Dshield SIEM hosted locally to utilize it for my Attack Observati
 
 [1] https://github.com/bruneaug/DShield-SIEM#ubuntu-setup <br>
 
+<br>
+<br>
