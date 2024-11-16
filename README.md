@@ -45,27 +45,31 @@ I then added a DShield SIEM hosted locally to utilize it for my Attack Observati
 
 # Setup Process
 
-#### 1. Login to AWS, and [setup your DShield Sensor](./1.%20AWS%20DShield%20Sensor%20Setup.md). <!-- TO-DO -->
+## 1. [Login to AWS, and setup your DShield Sensor](./1.%20AWS%20DShield%20Sensor%20Setup.md). <!-- TO-DO: Create a page on how to provision a Dshield Sensor through AWS based on Dr. J's GitHub Documentation -->
    
-#### 2. Setup your DShield SIEM. <br>
-  1. Install Ubuntu Server to a physical machine. <!-- TO-DO -->
-  2. (Option) Install Ubuntu Server to a virtual machine. <!-- TO-DO -->
-  3. Build a Docker Partition. <!-- TO-DO -->
-  4. Install Docker. <!-- TO-DO -->
-  5. Install and Configure DShield ELK. <!-- TO-DO -->
+## 2. Setup your DShield SIEM. <br>
+  1. Install Ubuntu Server to a physical machine.<br> <!-- TO-DO: Create a page on how to intall Ubuntu Server to a machine -->
+  2. (Option) Install Ubuntu Server virtually through VMWare.<br> <!-- TO-DO: Create a page on how to install Ubuntu Server virtually through VMWare -->
+  3. Build a Docker Partition.<br> <!-- TO-DO: Either Link Guy's page on how to build a docker partion, or create a page dedicated for it. The amount of storage might need to be defined. -->
+  4. Install Docker.<br> <!-- TO-DO: Create a page on how to install Docker -->
+  5. Install and Configure DShield ELK.<br> <!-- TO-DO: Create a page on how to Configure DShield ELK based on Guy's Configurations-->
 
 
 An optional setup for using Raspberry Pi as a SIEM has been written by another SANS Student, and can be found on their [GitHub page](https://github.com/amelete11235/homelab/blob/main/Installing%20DShield%20SIEM%20on%20a%20Raspberry%20Pi%205%20-%208%20GB%20RAM/Installing%20DShield%20SIEM%20on%20a%20Raspberry%20Pi%205%20-%208%20GB%20RAM.md).
    
-#### 3. Configure FileBeat and connect your DShield Sensor to DShield SIEM.
+## 3. Configure FileBeat and connect your DShield Sensor to DShield SIEM.
 
 
-#### 4. Harden your DShield SIEM.
+## 4. Harden your DShield SIEM.
 
 
-## References
+# References and Resources
 
 [1] https://github.com/bruneaug/DShield-SIEM#ubuntu-setup <br>
 
 <br>
 <br>
+
+### Resources
+- AWS Guides and Documentation - https://aws.amazon.com/getting-started/?nc1=f_cc
+- SANS Internet Storm Center - https://isc.sans.edu/
