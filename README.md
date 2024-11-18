@@ -27,7 +27,7 @@ I then added a DShield SIEM hosted locally to utilize it for my Attack Observati
 
 1. Ubuntu 22.04 LTS Live Server 64-bit for your DShield SIEM. You can download the ISO on the [Ubuntu Server Page](https://ubuntu.com/download/server)
 
-2. Rufus Software to put your Ubuntu ISO into a bootable USB.
+2. Rufus Software to put your Ubuntu ISO into a bootable USB. You can find the latest Rufus version on the [Rufus downloads page](https://rufus.ie/downloads/).
 
 3. (Optional) a DBAN software such as Parted Magic to wipe the machine you will be using.
 <br>
@@ -72,4 +72,5 @@ An optional setup for using Raspberry Pi as a SIEM has been written by another S
 
 ### Resources
 - AWS Guides and Documentation - https://aws.amazon.com/getting-started/?nc1=f_cc
+- Rufus - https://rufus.ie/downloads/
 - SANS Internet Storm Center - https://isc.sans.edu/
