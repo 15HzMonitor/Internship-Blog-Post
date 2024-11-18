@@ -20,8 +20,6 @@ I then added a DShield SIEM hosted locally to utilize it for my Attack Observati
    - Minimum 300 GB partition assigned to /var/lib/docker (I used a 1TB SATA drive) <br>
 
 2. A USB flash drive to put your Ubuntu ISO to be installed to your repurposed machine. Have at least 
-
-
 <br>
 <br>
 
@@ -29,17 +27,19 @@ I then added a DShield SIEM hosted locally to utilize it for my Attack Observati
 
 1. Ubuntu 22.04 LTS Live Server 64-bit for your DShield SIEM. You can download the ISO on the [Ubuntu Server Page](https://ubuntu.com/download/server)
 
+2. Rufus Software to put your Ubuntu ISO into a bootable USB.
+
+3. (Optional) a DBAN software such as Parted Magic to wipe the machine you will be using.
 <br>
 <br>
 
 ### Accounts
 
-1. A SANS Internet Storm Center (ISC) Account. You can sign up on the [ISC sign up page](https://isc.sans.edu/register.html).
+1. A SANS Internet Storm Center (ISC) Account for your API key to enter in your sensor. You can sign up on the [ISC sign up page](https://isc.sans.edu/register.html).
 
 2. An AWS Account to deploy your DShield Sensor using the Free Tier offer. <br> If you don't have one yet, you can sign up on the [AWS sign up page](https://signin.aws.amazon.com/signup?request_type=register).
 
 3. An AlienVault OTX account for generating the API code to link to your DShield SIEM. <br> You can sign up on the [AlienVault OTX sign up page](https://otx.alienvault.com/).
-
 <br>
 <br>
 
