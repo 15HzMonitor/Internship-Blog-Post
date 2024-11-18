@@ -21,16 +21,16 @@ I then added a DShield SIEM hosted locally to utilize it for my Attack Observati
 
 2. A USB flash drive to put your Ubuntu ISO to be installed to your repurposed machine. Have at least 
 <br>
-<br>
 
 ### Software
 
-1. Ubuntu 22.04 LTS Live Server 64-bit for your DShield SIEM. You can download the ISO on the [Ubuntu Server Page](https://ubuntu.com/download/server)
+1. Ubuntu 22.04 LTS Live Server 64-bit for your DShield SIEM. You can download the ISO on the [Ubuntu Server Page](https://ubuntu.com/download/server).
 
 2. Rufus Software to put your Ubuntu ISO into a bootable USB. You can find the latest Rufus version on the [Rufus downloads page](https://rufus.ie/downloads/).
 
 3. (Optional) a DBAN software such as Parted Magic to wipe the machine you will be using.
-<br>
+
+4. Your router's software for port forwarding purposes.
 <br>
 
 ### Accounts
@@ -40,7 +40,6 @@ I then added a DShield SIEM hosted locally to utilize it for my Attack Observati
 2. An AWS Account to deploy your DShield Sensor using the Free Tier offer. <br> If you don't have one yet, you can sign up on the [AWS sign up page](https://signin.aws.amazon.com/signup?request_type=register).
 
 3. An AlienVault OTX account for generating the API code to link to your DShield SIEM. <br> You can sign up on the [AlienVault OTX sign up page](https://otx.alienvault.com/).
-<br>
 <br>
 
 # Setup Process
