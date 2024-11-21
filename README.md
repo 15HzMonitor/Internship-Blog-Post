@@ -28,7 +28,7 @@ I then added a DShield SIEM hosted locally to utilize it for my Attack Observati
 
 2. Rufus Software to put your Ubuntu ISO into a bootable USB. You can find the latest Rufus version on the [Rufus downloads page](https://rufus.ie/downloads/).
 
-3. (Optional) a DBAN software such as Parted Magic to wipe the machine you will be using.
+3. (Optional) a software such as Parted Magic or DBAN to wipe the machine you will be using.
 
 4. Your router's software for port forwarding purposes.
 <br>
