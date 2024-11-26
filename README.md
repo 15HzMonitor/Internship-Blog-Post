@@ -1,4 +1,4 @@
-# SANS ICS Internship Setup: AWS DShield Sensor + DShield SIEM 
+# SANS ISC Internship Setup: AWS DShield Sensor + DShield SIEM 
 # Introduction
 This is a blog post documentation on how to set up the DShield Sensor in AWS, DShield SIEM locally, and connecting them both. <br>
 I initially setup a Raspberry Pi5 to use as a DShield Sensor, but ultimately switched to AWS after a while. <br>
